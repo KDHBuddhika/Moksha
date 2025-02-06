@@ -4,6 +4,7 @@ import VideoCarousel from '../components/VideoCarousel';
 import Footer from '../components/Footer';
 import Stats from '../components/Stats';
 import SafePlace from '../components/SafePlace';
+import WhyChooseUs from '../components/WhyChooseUs';
 
 function Home() {
   return (
@@ -12,6 +13,7 @@ function Home() {
       <VideoCarousel />
       <Stats />
       <SafePlace />
+      <WhyChooseUs />
       <Footer />
     </div>
   );
