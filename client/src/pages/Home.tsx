@@ -7,6 +7,7 @@ import SafePlace from '../components/SafePlace';
 import WhyChooseUs from '../components/WhyChooseUs';
 import Packages from '../components/Packages';
 import TopDestinations from '../components/TopDestinations';
+import PopularBlogs from '../components/PopularBlogs';
 
 function Home() {
   return (
@@ -18,6 +19,7 @@ function Home() {
       <WhyChooseUs />
       <Packages />
       <TopDestinations />
+      <PopularBlogs />
       <Footer />
     </div>
   );
