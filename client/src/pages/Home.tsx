@@ -5,6 +5,8 @@ import Footer from '../components/Footer';
 import Stats from '../components/Stats';
 import SafePlace from '../components/SafePlace';
 import WhyChooseUs from '../components/WhyChooseUs';
+import Packages from '../components/Packages';
+import TopDestinations from '../components/TopDestinations';
 
 function Home() {
   return (
@@ -14,6 +16,8 @@ function Home() {
       <Stats />
       <SafePlace />
       <WhyChooseUs />
+      <Packages />
+      <TopDestinations />
       <Footer />
     </div>
   );
