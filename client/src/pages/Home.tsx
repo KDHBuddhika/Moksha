@@ -8,6 +8,7 @@ import WhyChooseUs from '../components/WhyChooseUs';
 import Packages from '../components/Packages';
 import TopDestinations from '../components/TopDestinations';
 import PopularBlogs from '../components/PopularBlogs';
+import Testimonials from '../components/Testimonials';
 
 function Home() {
   return (
@@ -20,6 +21,7 @@ function Home() {
       <Packages />
       <TopDestinations />
       <PopularBlogs />
+      <Testimonials />
       <Footer />
     </div>
   );
