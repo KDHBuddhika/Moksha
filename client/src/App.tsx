@@ -6,6 +6,7 @@ import Services from './pages/Services';
 import Blog from './pages/Blog';
 import SignIn from './pages/SignIn';
 import SignUp from './pages/SignUp';
+import Packages from './components/Packages';
 
 function App() {
   
@@ -19,6 +20,7 @@ function App() {
         <Route path="/blog" element={<Blog />} />
         <Route path="/signin" element={<SignIn />} />
         <Route path="/signup" element={<SignUp />} />
+        <Route path="/packages" element={<Packages />} />
       </Routes>
     </Router>
   )
