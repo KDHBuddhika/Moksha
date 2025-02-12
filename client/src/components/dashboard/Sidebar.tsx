@@ -13,7 +13,7 @@ import {
 
 const menuItems = [
   { path: '/dashboard', icon: LayoutDashboard, label: 'Dashboard' },
-  { path: '/users', icon: Users, label: 'Users' },
+  { path: '/dashboard/users', icon: Users, label: 'Users' },
   { path: '/packages', icon: Package, label: 'Packages' },
   { path: '/vlogs', icon: Video, label: 'Vlogs' },
   { path: '/reservation', icon: Calendar, label: 'Reservation' },

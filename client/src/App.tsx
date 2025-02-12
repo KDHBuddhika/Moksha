@@ -11,6 +11,7 @@ import Contact from './pages/Contact';
 
 import MainLayout from './components/dashboard/MainLayout';
 import Dashboard from './pages/Dashboard/Dashboard';
+import Users from './pages/Dashboard/Users';
 
 function App() {
   
@@ -30,6 +31,7 @@ function App() {
         
         <Route path="/dashboard" element={<MainLayout />}>
         <Route index element={<Dashboard />} />
+        <Route path="/dashboard/users" element={<Users />} />
         </Route>
 
 
