@@ -9,6 +9,9 @@ import SignUp from './pages/SignUp';
 import Packages from './components/Packages';
 import Contact from './pages/Contact';
 
+import MainLayout from './components/dashboard/MainLayout';
+import Dashboard from './pages/Dashboard/Dashboard';
+
 function App() {
   
 
@@ -23,7 +26,19 @@ function App() {
         <Route path="/signup" element={<SignUp />} />
         <Route path="/packages" element={<Packages />} />
         <Route path="/contact" element={<Contact />} />
+
+        
+        <Route path="/dashboard" element={<MainLayout />}>
+        <Route index element={<Dashboard />} />
+        </Route>
+
+
+
+
       </Routes>
+
+       
+
     </Router>
   )
 }

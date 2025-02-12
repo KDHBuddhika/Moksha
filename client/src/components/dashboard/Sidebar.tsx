@@ -12,7 +12,7 @@ import {
 } from 'lucide-react';
 
 const menuItems = [
-  { path: '/', icon: LayoutDashboard, label: 'Dashboard' },
+  { path: '/dashboard', icon: LayoutDashboard, label: 'Dashboard' },
   { path: '/users', icon: Users, label: 'Users' },
   { path: '/packages', icon: Package, label: 'Packages' },
   { path: '/vlogs', icon: Video, label: 'Vlogs' },
