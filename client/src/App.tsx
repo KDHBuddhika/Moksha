@@ -13,6 +13,7 @@ import MainLayout from './components/dashboard/MainLayout';
 import Dashboard from './pages/Dashboard/Dashboard';
 import Users from './pages/Dashboard/Users';
 import AddPackage from './pages/Dashboard/AddPackage';
+import AdminPackages from './pages/Dashboard/Packages';
 
 function App() {
   
@@ -34,7 +35,7 @@ function App() {
         <Route index element={<Dashboard />} />
         <Route path="/dashboard/users" element={<Users />} />
 
-        <Route path="/dashboard/packages" element={<Packages />} />
+        <Route path="/dashboard/packages" element={<AdminPackages />} />
 
         <Route path="/dashboard/packages/add" element={<AddPackage />} />
         </Route>
