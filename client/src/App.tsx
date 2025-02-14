@@ -12,6 +12,7 @@ import Contact from './pages/Contact';
 import MainLayout from './components/dashboard/MainLayout';
 import Dashboard from './pages/Dashboard/Dashboard';
 import Users from './pages/Dashboard/Users';
+import AddPackage from './pages/Dashboard/AddPackage';
 
 function App() {
   
@@ -34,6 +35,8 @@ function App() {
         <Route path="/dashboard/users" element={<Users />} />
 
         <Route path="/dashboard/packages" element={<Packages />} />
+
+        <Route path="/dashboard/packages/add" element={<AddPackage />} />
         </Route>
 
         
