@@ -32,7 +32,11 @@ function App() {
         <Route path="/dashboard" element={<MainLayout />}>
         <Route index element={<Dashboard />} />
         <Route path="/dashboard/users" element={<Users />} />
+
+        <Route path="/dashboard/packages" element={<Packages />} />
         </Route>
+
+        
 
 
 
