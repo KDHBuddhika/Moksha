@@ -1,6 +1,8 @@
 import React from 'react';
 import { BarChart, Bar, LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer, PieChart, Pie, Cell } from 'recharts';
 import { Users, Video, Package, DollarSign, Plus, Share2, TrendingUp, ArrowRight } from 'lucide-react';
+import { Link } from 'react-router-dom';
+
 
 const lineChartData = [
   { name: 'JUL', value: 20 },
@@ -75,7 +77,7 @@ const Dashboard = () => {
               <Share2 className="h-6 w-6" />
             </div>
             <div className="flex-1">
-              <span className="font-medium block">Create Package</span>
+              <Link to="/dashboard/packages/add" className="font-medium block">Create Package</Link>
               <span className="text-sm text-white/80">Add new travel package</span>
             </div>
             <ArrowRight className="h-5 w-5 transform group-hover:translate-x-1 transition-transform" />
@@ -85,7 +87,7 @@ const Dashboard = () => {
               <Plus className="h-6 w-6" />
             </div>
             <div className="flex-1">
-              <span className="font-medium block text-gray-800">Add Vlog</span>
+              <Link to="/dashboard/vlogs/add" className="font-medium block text-gray-800">Add Vlog</Link>
               <span className="text-sm text-gray-500">Upload new content</span>
             </div>
             <ArrowRight className="h-5 w-5 text-gray-400 transform group-hover:translate-x-1 transition-transform" />

@@ -15,6 +15,7 @@ import Users from './pages/Dashboard/Users';
 import AddPackage from './pages/Dashboard/AddPackage';
 import AdminPackages from './pages/Dashboard/Packages';
 import Vlogs from './pages/Dashboard/Vlogs';
+import AddVlog from './pages/Dashboard/AddVlog';
 
 function App() {
   
@@ -41,6 +42,8 @@ function App() {
         <Route path="/dashboard/packages/add" element={<AddPackage />} />
 
         <Route path="/dashboard/vlogs" element={<Vlogs />} />
+
+        <Route path="/dashboard/vlogs/add" element={<AddVlog />} />
         
         </Route>
 
