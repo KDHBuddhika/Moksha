@@ -18,7 +18,7 @@ const menuItems = [
   { path: '/dashboard/vlogs', icon: Video, label: 'Vlogs' },
   { path: '/reservation', icon: Calendar, label: 'Reservation' },
   { path: '/payment', icon: CreditCard, label: 'Payment' },
-  { path: '/admins', icon: UserCog, label: 'Admins' },
+  { path: '/dashboard/admins', icon: UserCog, label: 'Admins' },
 ];
 
 const Sidebar = () => {
