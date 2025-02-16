@@ -40,7 +40,7 @@ function App() {
 
         <Route path="/dashboard/packages/add" element={<AddPackage />} />
 
-        <Route path="vlogs" element={<Vlogs />} />
+        <Route path="/dashboard/vlogs" element={<Vlogs />} />
         
         </Route>
 
