@@ -58,7 +58,7 @@ const Admins = () => {
       <div className="flex items-center justify-between">
         <h1 className="text-2xl font-bold text-gray-800">Manage Admins</h1>
         <Link
-          to="/admins/add"
+          to="/dashboard/admins/add"
           className="px-4 py-2 bg-yellow-500 text-white rounded-lg hover:bg-yellow-600 transition-colors flex items-center gap-2"
         >
           <Plus className="h-5 w-5" />
