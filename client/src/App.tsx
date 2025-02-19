@@ -20,6 +20,7 @@ import Admins from './pages/Dashboard/Admins';
 import AddAdmin from './pages/Dashboard/AddAdmin';
 import AdminProfile from './pages/Dashboard/AdminProfile';
 import Reservation from './pages/Dashboard/Reservation';
+import Payment from './pages/Dashboard/Payment';
 
 function App() {
   
@@ -56,6 +57,8 @@ function App() {
         <Route path="/dashboard/admins/profile" element={<AdminProfile />} />
 
         <Route path="/dashboard/reservation" element={<Reservation />} />
+
+        <Route path="/dashboard/payment" element={<Payment />} />
         
         </Route>
 
