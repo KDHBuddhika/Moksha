@@ -19,6 +19,7 @@ import AddVlog from './pages/Dashboard/AddVlog';
 import Admins from './pages/Dashboard/Admins';
 import AddAdmin from './pages/Dashboard/AddAdmin';
 import AdminProfile from './pages/Dashboard/AdminProfile';
+import Reservation from './pages/Dashboard/Reservation';
 
 function App() {
   
@@ -53,6 +54,8 @@ function App() {
         <Route path="/dashboard/admins/add" element={<AddAdmin />} />
 
         <Route path="/dashboard/admins/profile" element={<AdminProfile />} />
+
+        <Route path="/dashboard/reservation" element={<Reservation />} />
         
         </Route>
 

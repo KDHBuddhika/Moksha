@@ -16,7 +16,7 @@ const menuItems = [
   { path: '/dashboard/users', icon: Users, label: 'Users' },
   { path: '/dashboard/packages', icon: Package, label: 'Packages' },
   { path: '/dashboard/vlogs', icon: Video, label: 'Vlogs' },
-  { path: '/reservation', icon: Calendar, label: 'Reservation' },
+  { path: '/dashboard/reservation', icon: Calendar, label: 'Reservation' },
   { path: '/payment', icon: CreditCard, label: 'Payment' },
   { path: '/dashboard/admins', icon: UserCog, label: 'Admins' },
 ];
